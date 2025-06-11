@@ -4,7 +4,7 @@ public enum DamageType {
     PHYSICAL,
     MELEE,
     PROJECTILE,
-    SKILL_MELEE,
-    SKILL_PROJECTILE,
+    MAGIC,
+    SKILL,
     DOT
 }

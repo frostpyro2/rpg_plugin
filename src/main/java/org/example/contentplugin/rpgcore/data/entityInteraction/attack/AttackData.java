@@ -2,7 +2,6 @@ package org.example.contentplugin.rpgcore.data.entityInteraction.attack;
 
 import org.bukkit.entity.LivingEntity;
 import org.example.contentplugin.rpgcore.data.entity.EntityData;
-import org.example.contentplugin.rpgcore.data.entityInteraction.damage.DamageManage;
 import org.example.contentplugin.rpgcore.data.entityInteraction.damage.data.DamageData;
 
 public class AttackData {

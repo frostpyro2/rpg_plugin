@@ -1,4 +1,4 @@
-package org.example.contentplugin.rpgcore.data.stat;
+package org.example.contentplugin.rpgcore.data.entity.stat;
 
 public enum StatType {
     MELEE_DAMAGE,

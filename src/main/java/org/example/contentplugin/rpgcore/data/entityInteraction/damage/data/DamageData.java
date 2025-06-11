@@ -30,10 +30,6 @@ public class DamageData {
         return  Math.max(MAX, val);
     }
 
-    public void setTypes(DamageType...types){
-        this.types = types;
-    }
-
     public List<DamageType> getTypes(){
         return new ArrayList<>(Arrays.asList(types));
     }

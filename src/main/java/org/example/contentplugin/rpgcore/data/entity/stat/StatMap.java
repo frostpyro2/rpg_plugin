@@ -1,9 +1,8 @@
-package org.example.contentplugin.rpgcore.data.stat;
+package org.example.contentplugin.rpgcore.data.entity.stat;
 
 import org.bukkit.entity.LivingEntity;
 import org.example.contentplugin.rpgcore.data.entity.EntityData;
 import org.example.contentplugin.rpgcore.data.entity.EntityMap;
-import org.example.contentplugin.rpgcore.data.entity.player.PlayerData;
 
 import java.util.Collection;
 import java.util.Map;
