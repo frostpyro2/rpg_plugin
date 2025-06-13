@@ -36,6 +36,11 @@ public final class RpgCore extends JavaPlugin {
 
     @Override
     public void onDisable() {
+        try{
+            connection.close();
+        }
+        catch (Exception e){
 
+        }
     }
 }
