@@ -1,8 +1,8 @@
-package org.example.contentplugin.rpgcore.data.entity.player;
+package org.example.contentplugin.rpgcore.entity.player;
 
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
-import org.example.contentplugin.rpgcore.data.entity.EntityData;
+import org.example.contentplugin.rpgcore.entity.EntityData;
 
 public class PlayerData implements EntityData {
     private LivingEntity master;

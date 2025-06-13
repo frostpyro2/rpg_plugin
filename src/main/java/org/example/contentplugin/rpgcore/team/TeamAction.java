@@ -1,4 +1,4 @@
-package org.example.contentplugin.rpgcore.data.team;
+package org.example.contentplugin.rpgcore.team;
 
 public enum TeamAction {
     INVITE,

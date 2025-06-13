@@ -1,4 +1,4 @@
-package org.example.contentplugin.rpgcore.data.entityInteraction.damage;
+package org.example.contentplugin.rpgcore.damage.damage;
 
 public enum DamageType {
     PHYSICAL,

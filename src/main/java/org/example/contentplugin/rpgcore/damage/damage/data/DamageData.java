@@ -1,6 +1,6 @@
-package org.example.contentplugin.rpgcore.data.entityInteraction.damage.data;
+package org.example.contentplugin.rpgcore.damage.damage.data;
 
-import org.example.contentplugin.rpgcore.data.entityInteraction.damage.DamageType;
+import org.example.contentplugin.rpgcore.damage.damage.DamageType;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,10 +1,9 @@
 package org.example.contentplugin.rpgcore.event.attackEvent;
 
-import org.bukkit.entity.ArmorStand;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 import org.bukkit.event.entity.EntityDamageEvent;
-import org.example.contentplugin.rpgcore.data.entityInteraction.attack.AttackData;
+import org.example.contentplugin.rpgcore.damage.attack.AttackData;
 
 public class AttackEvent extends Event {
     private static HandlerList handlerList = new HandlerList();

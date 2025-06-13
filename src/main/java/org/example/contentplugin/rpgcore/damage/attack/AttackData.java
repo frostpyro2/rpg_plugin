@@ -1,8 +1,8 @@
-package org.example.contentplugin.rpgcore.data.entityInteraction.attack;
+package org.example.contentplugin.rpgcore.damage.attack;
 
 import org.bukkit.entity.LivingEntity;
-import org.example.contentplugin.rpgcore.data.entity.EntityData;
-import org.example.contentplugin.rpgcore.data.entityInteraction.damage.data.DamageData;
+import org.example.contentplugin.rpgcore.entity.EntityData;
+import org.example.contentplugin.rpgcore.damage.damage.data.DamageData;
 
 public class AttackData {
     private LivingEntity target;

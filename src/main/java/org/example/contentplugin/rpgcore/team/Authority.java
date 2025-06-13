@@ -1,7 +1,7 @@
-package org.example.contentplugin.rpgcore.data.team;
+package org.example.contentplugin.rpgcore.team;
 
 import org.bukkit.entity.LivingEntity;
-import org.example.contentplugin.rpgcore.data.entity.EntityData;
+import org.example.contentplugin.rpgcore.entity.EntityData;
 
 public class Authority implements EntityData {
     private boolean kickAble;

@@ -1,15 +1,12 @@
-package org.example.contentplugin.rpgcore.data.entityInteraction.damage;
+package org.example.contentplugin.rpgcore.damage.damage;
 
-import org.bukkit.damage.DamageSource;
-import org.bukkit.entity.Enemy;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Projectile;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.EntityDamageEvent;
-import org.bukkit.event.entity.ProjectileHitEvent;
-import org.example.contentplugin.rpgcore.data.entity.EntityData;
-import org.example.contentplugin.rpgcore.data.entityInteraction.attack.AttackData;
-import org.example.contentplugin.rpgcore.data.entityInteraction.damage.data.DamageData;
+import org.example.contentplugin.rpgcore.entity.EntityData;
+import org.example.contentplugin.rpgcore.damage.attack.AttackData;
+import org.example.contentplugin.rpgcore.damage.damage.data.DamageData;
 
 
 public class DamageManage {

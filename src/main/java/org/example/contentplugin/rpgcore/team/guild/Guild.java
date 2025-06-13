@@ -1,7 +1,7 @@
-package org.example.contentplugin.rpgcore.data.team.guild;
+package org.example.contentplugin.rpgcore.team.guild;
 
-import org.example.contentplugin.rpgcore.data.entity.EntityData;
-import org.example.contentplugin.rpgcore.data.team.TeamSystem;
+import org.example.contentplugin.rpgcore.entity.EntityData;
+import org.example.contentplugin.rpgcore.team.TeamSystem;
 
 import java.util.ArrayList;
 import java.util.Collection;

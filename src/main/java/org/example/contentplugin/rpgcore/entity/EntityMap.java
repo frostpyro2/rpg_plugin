@@ -1,7 +1,6 @@
-package org.example.contentplugin.rpgcore.data.entity;
+package org.example.contentplugin.rpgcore.entity;
 
 import org.bukkit.entity.LivingEntity;
-import org.example.contentplugin.rpgcore.data.entity.EntityData;
 
 public class EntityMap implements EntityData {
 

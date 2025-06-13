@@ -1,4 +1,4 @@
-package org.example.contentplugin.rpgcore.data.entity;
+package org.example.contentplugin.rpgcore.entity;
 
 import org.bukkit.entity.LivingEntity;
 
