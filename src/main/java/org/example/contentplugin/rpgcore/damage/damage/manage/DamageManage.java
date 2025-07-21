@@ -1,9 +1,10 @@
-package org.example.contentplugin.rpgcore.damage.damage;
+package org.example.contentplugin.rpgcore.damage.damage.manage;
 
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Projectile;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.EntityDamageEvent;
+import org.example.contentplugin.rpgcore.damage.damage.DamageType;
 import org.example.contentplugin.rpgcore.entity.EntityData;
 import org.example.contentplugin.rpgcore.damage.attack.AttackData;
 import org.example.contentplugin.rpgcore.damage.damage.data.DamageData;
