@@ -12,4 +12,16 @@ public class AttackData {
         this.damaged = damaged;
         this.data = data;
     }
+
+    public EntityData getAttacker(){
+        return attacker;
+    }
+
+    public DamageData getData() {
+        return data;
+    }
+
+    public LivingEntity getDamaged() {
+        return damaged;
+    }
 }
