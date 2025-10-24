@@ -1,10 +1,17 @@
 package org.example.contentplugin.rpgcore.damage.data.damage;
 
+import org.bukkit.event.entity.EntityDamageEvent;
 import org.example.contentplugin.rpgcore.damage.type.DamageType;
 
 public class Packet implements Cloneable{
     private double amount;
     private DamageType type;
+
+    private EntityDamageEvent event;
+
+    public Packet(){
+
+    }
 
     public Packet(double amount, DamageType type){
         this.amount = amount;
@@ -17,6 +24,10 @@ public class Packet implements Cloneable{
 
     public double getAmount(){
         return amount;
+    }
+
+    public EntityDamageEvent getEvent(){
+        return event;
     }
 
 

@@ -1,5 +1,8 @@
 package org.example.contentplugin.rpgcore.team.guild;
 
+import net.minecraft.server.level.EntityPlayer;
+import org.bukkit.craftbukkit.v1_21_R6.entity.CraftPlayer;
+import org.bukkit.entity.Player;
 import org.example.contentplugin.rpgcore.entity.EntityData;
 import org.example.contentplugin.rpgcore.team.TeamSystem;
 
