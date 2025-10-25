@@ -10,16 +10,9 @@ import org.bukkit.entity.Player;
 import org.example.contentplugin.rpgcore.entity.player.PlayerData;
 
 public class ModelUpload {
-    private EntityPlayer player;
-    private Packet<?> modelPacket;
-    public ModelUpload(PlayerData data, Packet<?> modelPacket){
-        player = ((CraftPlayer)data.getEntity()).getHandle();
-        this.modelPacket = modelPacket;
-    }
 
-    public void uploadModelByPacket(){
-        player.transferCookieConnection.sendPacket(modelPacket);
+    public static void modelUpload(PlayerData data, Packet<?> modelPacket){
+        ((CraftPlayer)data.getEntity()).getHandle().transferCookieConnection.sendPacket(modelPacket);
     }
-
 
 }
